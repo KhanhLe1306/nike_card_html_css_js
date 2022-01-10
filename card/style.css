@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #4daf54, #3d8880);
+}
+
+.card{
+    width: 320px;
+    height: 400px;
+    position: relative;
+    background-color: #272d40;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.card i{
+    font-size: 1.8rem;
+    position: absolute;
+    color: white;
+}
+
+.card:hover .image{
+    /* transform: rotate(-30deg);
+    transform-origin: bottom left; */
+    transform: translateY(-100px) rotate(-15deg);
+}
+
+.uil-heart{
+    left: 5%;
+    top: 5%;
+}
+
+.uil-shopping-cart-alt{
+    right: 5%;
+    top: 5%;
+}
+
+.image{
+    width: 90%;
+    margin: 0 auto;
+    transition: all .5s ease-in-out;
+    position: relative;
+    top: 10%;
+    right: 5%;
+    /* transform: rotate(-30deg) translateY(-70px); */
+    /* transform-origin: bottom left; */
+}
+
+.image img{
+    width: 100%;
+}
+
